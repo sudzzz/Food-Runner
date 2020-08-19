@@ -28,8 +28,7 @@ by 3 parameters :
 
 ## Screenshots
 
-![Logo](https://user-images.githubusercontent.com/41622136/90601126-4ea75080-e215-11ea-8a86-733db88f1c3c.jpeg)  
-![Login](https://user-images.githubusercontent.com/41622136/90601192-71d20000-e215-11ea-887a-4710e0f4bfe1.jpeg)
+![Logo](https://user-images.githubusercontent.com/41622136/90601126-4ea75080-e215-11ea-8a86-733db88f1c3c.jpeg) ![Login](https://user-images.githubusercontent.com/41622136/90601192-71d20000-e215-11ea-887a-4710e0f4bfe1.jpeg)
 ![Register](https://user-images.githubusercontent.com/41622136/90601231-82827600-e215-11ea-9c97-7a4e97515f48.jpeg)
 ![Forgot_password](https://user-images.githubusercontent.com/41622136/90601267-90d09200-e215-11ea-950d-eca3aebe8808.jpeg)
 ![Navigation Drawer](https://user-images.githubusercontent.com/41622136/90601301-9fb74480-e215-11ea-96a7-a879cc992339.jpeg)
