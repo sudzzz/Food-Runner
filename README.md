@@ -28,6 +28,5 @@ by 3 parameters :
 
 ## Screenshots
 
-![collage](https://user-images.githubusercontent.com/41622136/90603558-1a359380-e219-11ea-8514-daa87c5a25a9.jpg)
-
-
+![collage1](https://user-images.githubusercontent.com/41622136/90604861-1e62b080-e21b-11ea-97c4-808234e4a3e8.jpg)
+![collage3](https://user-images.githubusercontent.com/41622136/90604913-320e1700-e21b-11ea-82ff-b6e6b6f39760.jpg)
