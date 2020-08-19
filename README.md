@@ -1,4 +1,4 @@
-# Food-Runner.
+# Food-Runner
 
 ## About
 
@@ -9,7 +9,7 @@ by 3 parameters :
 2. Cost(Low to High)
 3. Cost(High to Low)
 
-##Functionalities
+## Functionalities
 
 1. A ‘Welcome page’ which displays the logo and name of the app.
 2. A ‘Login Page’ which asks for users’ mobile number and password.
