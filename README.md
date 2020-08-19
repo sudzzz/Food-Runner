@@ -16,12 +16,12 @@ by 3 parameters :
 3. A ‘Registration Page’ which enables users to sign up for the app.
 4. A ‘Forgot Password Page’ which enables users to reset their password.
 5. A ‘Navigation Drawer’ with the app logo and user name on top and menu options to open the following pages:-
-    a. Home Page - Contains list of restaurants from where we can order.
-    b. User Profile Page - Information of the user.
-    c. Favourite Restaurants Page - Restaurants which the user has marked favourite.
-    d. Order History Page - List of all the orders placed by the user.
-    e. FAQ(Frequently Asked Questions) - FAQs to help the user.
-    f. Log Out Button - Logs you out and takes you back to login page.
+    - Home Page - Contains list of restaurants from where we can order.
+    - User Profile Page - Information of the user.
+    - Favourite Restaurants Page - Restaurants which the user has marked favourite.
+    - Order History Page - List of all the orders placed by the user.
+    - FAQ(Frequently Asked Questions) - FAQs to help the user.
+    - Log Out Button - Logs you out and takes you back to login page.
 6. A ‘Restaurant Details’ page which displays the menu items of the restaurant, each item’s price and the option to add/remove an item to the cart.
 7. A ‘Cart’ which lists the items added to cart and the total amount to be paid.
 8. A 'Conformation Page' that confirms that the order has been placed successfully.
