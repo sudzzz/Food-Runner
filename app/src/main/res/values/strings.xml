@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="mobile_number">Mobile Number(10 digits)</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register">Don\'t have an account? Sign up now</string>
+    <string name="name">Name(Min 3 characters)</string>
+    <string name="instruction">Enter your registered mobile number and email below:</string>
+    <string name="email_address">Email Address</string>
+    <string name="password_min">Password(Min 4 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="home">Home</string>
+    <string name="favourite">Favourite Restaurants</string>
+    <string name="orderHistory">Order History</string>
+    <string name="faq">FAQs</string>
+    <string name="log_out">Log Out</string>
+    <string name="my_profile">My Profile</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="preference_register">Register Preferences</string>
+    <string name="preference_login">Login Preferences</string>
+    <string name="preference_forgot_pass">Forgot Password Preferences</string>
+    <string name="preference_reset_pass">Reset Password Preferences</string>
+    <string name="preference_position">Position</string>
+    <string name="question_1">Q1. Will Food Runner be accountable for quality/quantity of food?</string>
+    <string name="answer_1">A1. Quantity and quality of food is the responsibility of the restaurant. However in case of issues with quality or quantity, kindly submit your feedback and we will pass it on to the restaurant.</string>
+    <string name="question_2">Q2. Is single order from many restaurants possible?</string>
+    <string name="answer_2">A2. We currently do not support this functionality. However you can place orders for individual items from different restaurants.</string>
+    <string name="question_3">Q3. What are your delivery hours?</string>
+    <string name="answer_3">A3. Our delivery hours vary for different locations and depends on availability of supply from restaurant partners.</string>
+    <string name="question_4">Q4. Do you charge for delivery?</string>
+    <string name="answer_4">A4. Delivery fee varies from city to city and is applicable if order value is below certain amount. Additionally, certain restaurants might have fixed delivery fees.</string>
+    <string name="question_5">Q5. Is there any minimum order value?</string>
+    <string name="answer_5">A5. We have no minimum order value and you can order for any amount.</string>
+    <string name="filter">Filter</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".activity.OrderPlacedActivity">
+
+
+    <ImageView
+        android:id="@+id/imgOrderPlaced"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/action_order_placed"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgOrderPlaced"
+        android:gravity="center_horizontal"
+        android:padding="8dp"
+        android:text="Your order has been successfully placed"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+    
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/button_draw"
+        android:text="OK"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+
+
+
+
+</RelativeLayout>

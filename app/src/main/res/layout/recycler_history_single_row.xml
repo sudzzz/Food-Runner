@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/llRestaurantHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="6">
+
+        <ImageView
+            android:layout_weight="0.5"
+            android:layout_width="13dp"
+            android:layout_height="13dp"
+            android:src="@drawable/ic_bullet"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/txtRestaurantName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3.8"
+            android:fontFamily="sans-serif-medium"
+            android:padding="10dp"
+            android:text="Pind Tadka"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtOrderDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:fontFamily="sans-serif"
+            android:padding="10dp"
+            android:text="05/08/2020"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llFoodItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llRestaurantHeader"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        android:padding="8dp"/>
+    <LinearLayout
+        android:id="@+id/llOrderDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/llFoodItems"
+        android:background="#7B8788"
+        android:orientation="horizontal" />
+
+</RelativeLayout>
+

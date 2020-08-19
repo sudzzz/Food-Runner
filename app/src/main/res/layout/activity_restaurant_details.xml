@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.RestaurantDetailsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarDetail"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <LinearLayout
+        android:id="@+id/llContentInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/toolbarDetail"
+        android:orientation="horizontal"
+        android:background="@color/colorWhite"
+        android:weightSum="6">
+
+        <TextView
+            android:layout_weight="5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:text="Choose from the menu listed below:"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"/>
+        <RelativeLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgFav"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_fav"
+                android:layout_centerInParent="true"
+                android:padding="5dp"/>
+            <ImageView
+                android:id="@+id/imgFavClicked"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_fav_clicked"
+                android:layout_centerInParent="true"
+                android:padding="5dp"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#F5F5F5"
+        android:layout_below="@id/llContentInstructions">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerDetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_margin="5dp"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:text="Proceed To Cart"
+        android:textSize="18sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:background="@color/colorPrimary"/>
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/progressLayoutDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite">
+
+        <ProgressBar
+            android:id="@+id/progressBarDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
